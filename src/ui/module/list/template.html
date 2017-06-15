@@ -1,0 +1,73 @@
+<div class="forum-list">
+    <div class="setting-search">
+          <widget-city :provinces="provinceOptions" :citys="cityOptions"/>
+          <div class="forum-left">
+            <label>论坛名称</label>
+            <el-input placeholder="请输入内容" v-model="forumInput" class="forum-input"> </el-input>
+          </div>
+          <el-button type="primary" @click="search">搜索</el-button>
+    </div>
+    <div class="forum-table-top">
+        <el-button type="info" @click="addForum">新建论坛</el-button>
+    </div>
+    <div class="forum-table">
+        <el-table   :data="forumDataList" stripe style="width: 100%">
+            <el-table-column inline-template  label="论坛图标" width="180">
+                <span class="img"><img :src="row.headImg" width="50" height="50"/></span>
+            </el-table-column>
+            <el-table-column prop="name"  label="论坛名称"> </el-table-column>
+            <el-table-column prop="id"  label="论坛ID"> </el-table-column>
+            <el-table-column prop="property"  label="论坛属性"> </el-table-column>
+            <el-table-column prop="access"  label="发贴量/访问量"> </el-table-column>
+            <el-table-column  inline-template label="操作"> 
+                <span>
+                    <el-button type="text" size="small" @click="edit(row)">编辑</el-button>
+                    <el-button type="text" size="small" @click="delList(row.id)">删除</el-button>
+                </span>
+            </el-table-column>
+        </el-table>
+        <div class="pager">
+            <el-pagination layout="prev, pager, next"  @current-change="search"  :current-page="curPage"  :page-size="10" :total="total"> </el-pagination>
+        </div>
+    </div>
+    <!--dialog begin-->
+    <el-dialog title="添加论坛" v-model="forumListDialog" size="small">
+      <el-form :model="listForm">
+        <el-form-item label="论坛图标：" :label-width="formLabelWidth" required>
+            <el-upload
+              action="//jsonplaceholder.typicode.com/posts/" type="select" :thumbnail-mode="true" :on-preview="handlePreview" :on-remove="handleRemove" :default-file-list="fileList"
+            >
+              <div class="el-dragger__text"><em>点击上传</em></div>
+              <div class="el-upload__tip" slot="tip">只能上传jpg/png文件，且不超过500kb</div>
+            </el-upload>
+        </el-form-item>
+        <el-form-item label="论坛类别：" :label-width="formLabelWidth" required>
+            <el-select v-model="forumType" placeholder="请选择" class="select-width">
+                <el-option
+                  v-for="item in forumTypeOptions"
+                  :label="item.label"
+                  :value="item.value">
+                </el-option>
+            </el-select>
+        </el-form-item>
+        <el-form-item label="楼盘ID：" :label-width="formLabelWidth" required v-if="forumType==1">
+            <el-input v-model="listForm.lpId" auto-complete="off" class="form-width"></el-input>
+        </el-form-item>
+        <el-form-item label="城市：" :label-width="formLabelWidth" required v-if="forumType==0">
+            <span class="forum-city"><widget-city /></span>
+        </el-form-item>
+        <el-form-item label="论坛名称：" :label-width="formLabelWidth" required>
+            <el-input v-model="listForm.name" auto-complete="off" class="form-width"></el-input>
+        </el-form-item>
+        <el-form-item label="论坛描述：" :label-width="formLabelWidth" required>
+          <el-input type="textarea" :autosize="{ minRows: 2, maxRows: 8}" class="form-width" placeholder="请输入内容" v-model="listForm.content"></el-input>
+        </el-form-item>
+      </el-form>
+      <div slot="footer" class="dialog-footer">
+        <el-button @click="forumListDialog = false">取 消</el-button>
+        <el-button type="primary" @click="saveTopicForum">确 定</el-button>
+      </div>
+    </el-dialog>
+
+    <!--dialog end-->
+</div>

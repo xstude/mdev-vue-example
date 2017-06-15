@@ -1,0 +1,39 @@
+{
+    "topicDataList": [{
+        "id": 456,
+        "title": "话题名称",
+        "person": "焦点用户1",
+        "tags": "买房日记",
+        "status": "已删除"
+    }],
+    "provinceOptions": [
+    {
+        "id": 1,
+        "name": "北京"
+    },{
+        "id": 2,
+        "name": "河北"
+    }, {
+        "id": 3,
+        "name": "山西"
+    }, {
+        "id": 4,
+        "name": "辽宁"
+    }
+    ],
+    "cityOptions":[
+    {
+            "id": 1,
+            "name": "秦皇岛"
+        }, {
+            "id": 2,
+            "name": "唐山"
+        }, {
+            "id": 3,
+            "name": "石家庄"
+        }, {
+            "id": 4,
+            "name": "盘山"
+        }    
+    ]
+}

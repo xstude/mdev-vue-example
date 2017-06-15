@@ -1,0 +1,44 @@
+{
+     "logForm":{
+        "type": 0,
+        "action": 0,
+        "time": "2016-8-9",
+        "person": "麦小脉"
+    },
+    "typeOptions": [
+        {
+            "label": "论坛操作",
+            "value": 0
+        },
+        {
+            "label": "贴子操作",
+            "value": 1
+        },
+        {
+            "label": "用户操作",
+            "value": 2
+        }
+    ],
+    "logDataList": [
+        {
+            "id": 1,
+            "type": "论坛操作",
+            "action": "eew",
+            "detail": "sdfsdf",
+            "time": "2017-9-10",
+            "person": "asd"
+        },
+        {
+            "id": 1,
+            "type": "论坛操作",
+            "action": "eew",
+            "detail": "sdfsdf",
+            "time": "2017-9-10",
+            "person": "asd"
+        }
+    ],
+    "actionOptions": [],
+    "personOptions": [],
+    "curPage": 1,
+    "total": 1
+}

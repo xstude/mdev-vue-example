@@ -1,0 +1,31 @@
+{
+    "forumDataList": [],
+    "forumListDialog" : false,
+    "listForm": {
+        "headImg": "",
+        "content": "",
+        "name": "",
+        "cityId": 0,
+        "lpId": ""
+    },
+    "formLabelWidth": "120px",
+    "fileList": [],
+    "forumType": "0",
+    "forumTypeOptions" : [
+        {
+            "label": "主题论坛",
+            "value": "0"
+        },
+        {
+            "label": "业主论坛",
+            "value": "1"
+        }
+    ],
+    "provinceId": "",
+    "provinceOptions": [],
+    "cityId": "",
+    "cityOptions":[],
+    "forumInput": "",
+   "curPage": 1,
+    "total": 1
+}

@@ -1,0 +1,16 @@
+{
+    "logForm":{
+        "type": 0,
+        "action": 0,
+        "time": "",
+        "person": "",
+        "date1": "",
+        "date2": ""
+    },
+    "typeOptions": [],
+    "actionOptions": [],
+    "personOptions": [],
+    "logDataList": [],
+    "curPage": 1,
+    "total": 1
+}

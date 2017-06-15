@@ -1,0 +1,41 @@
+{
+    "provinceOptions": 
+    [
+        {
+            "id": 1,
+            "name": "北京"
+        },{
+            "id": 2,
+            "name": "河北"
+        }, {
+            "id": 3,
+            "name": "山西"
+        }, {
+            "id": 4,
+            "name": "辽宁"
+        }
+    ],
+    "cityOptions":[
+        {
+            "id": 1,
+            "name": "秦皇岛"
+        }, {
+            "id": 2,
+            "name": "唐山"
+        }, {
+            "id": 3,
+            "name": "石家庄"
+        }, {
+            "id": 4,
+            "name": "盘山"
+        }    
+    ],
+    "userDataList": [
+        {
+            "headImg": "http://imgs.focus.cn/thumb/240/pics/38776/b_387754314.jpg",
+            "username": "焦点用户",
+            "status": "全论坛封禁",
+            "id": 456
+        }
+    ]
+}

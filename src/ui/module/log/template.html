@@ -1,0 +1,53 @@
+<div class="log-list">
+    <el-form :model="logForm">
+        <el-col :span="4" class="log-left">
+          <el-form-item label="操作类型" >
+            <el-select v-model="logForm.type" class="select-width">
+              <el-option :label="item.label" :value="item.value" v-for="(item, index) in typeOptions" ></el-option>
+            </el-select>
+          </el-form-item>
+        </el-col>
+        <el-col :span="4" class="log-left">
+          <el-form-item label="动作" >
+            <el-select v-model="logForm.type" class="select-width">
+              <el-option :label="item.label" :value="item.value" v-for="(item, index) in typeOptions" ></el-option>
+            </el-select>
+          </el-form-item>
+      </el-col>
+       <el-col :span="8" class="log-width1">
+        <el-form-item label="操作时间">
+          <el-col :span="7" class="log-width2">
+            <el-date-picker type="date" placeholder="选择日期" v-model="logForm.date1" style="width: 100%;"></el-date-picker>
+          </el-col>
+          <el-col class="line" :span="1">-</el-col>
+          <el-col :span="7" class="log-width2">
+            <el-date-picker type="date" placeholder="选择日期" v-model="logForm.date2" style="width: 100%;"></el-date-picker>
+          </el-col>
+        </el-form-item>
+      </el-col>
+      <el-col :span="4" class="log-left">
+        <el-form-item label="操作人" >
+          <el-select v-model="logForm.person" class="select-width">
+            <el-option :label="item.label" :value="item.value" v-for="(item, index) in personOptions" ></el-option>
+          </el-select>
+        </el-form-item>
+      </el-col>
+      <el-col :span="4">
+        <el-form-item>
+              <el-button type="primary" @click="search">查询</el-button>
+        </el-form-item>
+        </el-col>
+      </el-form>
+      <div class="log-table">
+          <el-table   :data="logDataList" stripe style="width: 100%">
+              <el-table-column prop="type"  label="操作类型"> </el-table-column>
+              <el-table-column prop="action"  label="动作"> </el-table-column>
+              <el-table-column prop="detail"  label="操作详情"> </el-table-column>
+              <el-table-column prop="time"  label="操作时间"> </el-table-column>
+              <el-table-column prop="person"  label="操作人"> </el-table-column>
+          </el-table>
+          <div class="pager">
+              <el-pagination layout="prev, pager, next"  @current-change="search"  :current-page="curPage"  :page-size="10" :total="total"> </el-pagination>
+          </div>
+      </div>
+</div>

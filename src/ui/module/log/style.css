@@ -1,0 +1,19 @@
+.log-list .select-width{
+    width:120px;
+}
+.log-list .log-left{
+    float:left;
+    width:208px;
+}
+.log-list .log-width1{
+    float:left;
+    width:310px;
+}
+.log-list .log-width2{
+    float:left;
+    width:105px;
+}
+.log-list .pager{
+    text-align: right;
+    margin:15px 0 0 0;
+}

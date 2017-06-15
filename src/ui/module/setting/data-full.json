@@ -1,0 +1,90 @@
+{
+    "addForumForm": false,
+    "forumForm": {
+        "forumID": ""
+    },
+    "daohangList":[
+        {
+            "name": "导航论坛",
+            "id": 1,
+            "list": [
+                {
+                    "id": 12,
+                    "name": "导航论坛1"
+                },
+                {
+                    "id": 14,
+                    "name": "导航论坛1"
+                }
+            ]
+        }
+    ],
+    "tuijianList":[
+        {
+            "name": "导航论坛",
+            "id": 1,
+            "list": [
+                {
+                    "id": 12,
+                    "name": "导航论坛1"
+                },
+                {
+                    "id": 14,
+                    "name": "导航论坛1"
+                }
+            ]
+        }
+    ],
+    "provinceOptions": [
+    {
+        "id": 1,
+        "name": "北京"
+    },{
+        "id": 2,
+        "name": "河北"
+    }, {
+        "id": 3,
+        "name": "山西"
+    }, {
+        "id": 4,
+        "name": "辽宁"
+    }
+    ],
+    "cityId": "",
+    "cityOptions":[
+    {
+            "id": 1,
+            "name": "秦皇岛"
+        }, {
+            "id": 2,
+            "name": "唐山"
+        }, {
+            "id": 3,
+            "name": "石家庄"
+        }, {
+            "id": 4,
+            "name": "盘山"
+        }    
+    ],
+    "forumInput": "",
+    "provinceId": "",
+    "curPage": 1,
+    "retuiList": [
+        {
+            "id": 1,
+            "name": "暂无",
+            "link": "暂无"
+        },
+        {
+            "id": 2,
+            "name": "暂无",
+            "link": "暂无"
+        },
+        {
+            "id": 3,
+            "name": "暂无",
+            "link": "暂无"
+        }
+    ],
+    "total": 10
+}

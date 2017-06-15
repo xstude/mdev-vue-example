@@ -1,0 +1,13 @@
+{
+    "mdev-template": "vue",
+    "public-path": "./",
+    "debug": true,
+    "data-model": "data",
+    "element-ui": true,
+    "global-library": [
+        "/src/ui/lib/reset.v3.1.1.css",
+        "/src/ui/lib/global.css"
+    ],
+    "dependencies": {
+    }
+}

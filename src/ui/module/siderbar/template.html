@@ -1,0 +1,19 @@
+<div>
+    <el-menu default-active="/demo">
+        <span @click="jumpUrl('/demo')">
+            <el-menu-item index="1"><i class="el-icon-message"></i>demo</el-menu-item>
+        </span>
+        <span @click="jumpUrl('/router-link')">
+            <el-menu-item index="2"><i class="el-icon-message"></i>router-link</el-menu-item>
+        </span>
+        <span @click="jumpUrl('/router-event')">
+            <el-menu-item index="3"><i class="el-icon-message"></i>router-event</el-menu-item>
+        </span>
+        <span @click="jumpUrl('/router/001?a=1&b=2&c=3')">
+            <el-menu-item index="4"><i class="el-icon-message"></i>router-params-query</el-menu-item>
+        </span>
+        <span @click="jumpUrl('/request')">
+            <el-menu-item index="5"><i class="el-icon-message"></i>request</el-menu-item>
+        </span>
+    </el-menu>
+</div>

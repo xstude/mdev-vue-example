@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mdev-vue": "0.0.1"
+  },
+  "scripts": {
+    "start": "node node_modules/mdev-vue/start.js",
+    "build": "node node_modules/mdev-vue/build.js",
+    "build-watch": "node node_modules/mdev-vue/build.js -w"
+  }
+}

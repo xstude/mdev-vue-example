@@ -1,0 +1,36 @@
+[
+    {
+        "path": "/",
+        "component": "module-layout",
+        "children": [
+            {
+                "path": "demo",
+                "component": "module-demo"
+            },
+            {
+                "path": "router-link",
+                "component": "module-router-link"
+            },
+            {
+                "path": "router-event",
+                "component": "module-router-event"
+            },
+            {
+                "path": "router/:id",
+                "component": "module-router"
+            },
+            {
+                "path": "request",
+                "component": "module-request"
+            }
+        ]
+    },
+    {
+        "path": "/",
+        "redirect": "/demo"
+    },
+    {
+        "path": ".*",
+        "component": "module-404"
+    }
+]

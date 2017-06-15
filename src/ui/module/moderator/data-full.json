@@ -1,0 +1,43 @@
+{
+    "moderatorDataList": [
+        {
+            "headImg": "http://imgs.focus.cn/thumb/240/pics/38776/b_387754314.jpg",
+            "name": "张三",
+            "nickname": "焦点用户",
+            "mobile": "13534567890",
+            "email": "df123@163.com",
+            "luntan": "搜狐焦点论坛",
+            "id": "1234"
+        }
+    ],
+    "provinceOptions": [
+    {
+        "id": 1,
+        "name": "北京"
+    },{
+        "id": 2,
+        "name": "河北"
+    }, {
+        "id": 3,
+        "name": "山西"
+    }, {
+        "id": 4,
+        "name": "辽宁"
+    }
+    ],
+    "cityOptions":[
+    {
+            "id": 1,
+            "name": "秦皇岛"
+        }, {
+            "id": 2,
+            "name": "唐山"
+        }, {
+            "id": 3,
+            "name": "石家庄"
+        }, {
+            "id": 4,
+            "name": "盘山"
+        }    
+    ]
+}

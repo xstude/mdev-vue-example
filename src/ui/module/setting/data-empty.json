@@ -1,0 +1,16 @@
+{
+    "addForumForm": false,
+    "forumForm": {
+        "forumID": ""
+    },
+    "daohangList":[],
+    "tuijianList":[],
+    "provinceId": "",
+    "provinceOptions": [],
+    "cityId": "",
+    "cityOptions":[],
+    "forumInput": "",
+    "retuiList": [],
+    "curPage": 1,
+    "total": 1
+}

@@ -1,0 +1,25 @@
+.moderator-tag{
+    height:35px;
+    line-height: 35px;
+}
+.moderator-tag span{
+    width:80px;
+    height:35px;
+    line-height: 35px;
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.moderator-tag .cur{
+    font-weight: bold;
+    color:#20a0ff;
+}
+.moderator-list .img{
+    margin:10px;
+    display:block;
+}
+.moderator .pager{
+    text-align: right;
+    margin:15px 0 0 0;
+}

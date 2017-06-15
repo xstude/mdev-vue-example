@@ -1,0 +1,52 @@
+{
+    "forumDataList": [
+        {
+            "headImg": "http://imgs.focus.cn/thumb/240/pics/38776/b_387754314.jpg",
+            "name": "论坛1",
+            "id": "1234",
+            "property": "北京论坛业主",
+            "access": "1234"            
+        }
+    ],
+    "forumListDialog" : false,
+    "listForm": {
+        "headImg": "http://imgs.focus.cn/thumb/240/pics/38776/b_387754314.jpg",
+        "content": "sfsdf",
+        "name": "sdfsdf",
+        "cityId": 0
+    },
+    "formLabelWidth": "120px",
+    "fileList": [],
+    "provinceOptions": [
+    {
+        "id": 1,
+        "name": "北京"
+    },{
+        "id": 2,
+        "name": "河北"
+    }, {
+        "id": 3,
+        "name": "山西"
+    }, {
+        "id": 4,
+        "name": "辽宁"
+    }
+    ],
+    "cityOptions":[
+    {
+            "id": 1,
+            "name": "秦皇岛"
+        }, {
+            "id": 2,
+            "name": "唐山"
+        }, {
+            "id": 3,
+            "name": "石家庄"
+        }, {
+            "id": 4,
+            "name": "盘山"
+        }    
+    ],
+    "curPage": 1,
+    "total": 1
+}

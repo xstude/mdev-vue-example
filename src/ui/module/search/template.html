@@ -1,0 +1,8 @@
+<div class="setting-search">
+      <widget-city :provinces="provinceOptions" :citys="cityOptions"/>
+      <div class="forum-left">
+        <label>论坛名称</label>
+        <el-input placeholder="请输入内容" v-model="forumInput" class="forum-input"> </el-input>
+      </div>
+      <el-button type="primary" @click="search">搜索</el-button>
+</div>

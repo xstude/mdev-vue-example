@@ -1,0 +1,40 @@
+.forum-table-top{
+    width:100%;
+    clear:both;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.forum-table .img{
+    margin:10px 0;
+    display: block;
+}
+.forum-list .form-width{
+    width:300px;
+}
+.forum-list .forum-city{
+    width:300px;
+    height:40px;
+    display:block;
+}
+.forum-list .select-width{
+    width:120px;
+}
+.forum-list .el-upload{
+    width:360px;
+    height:60px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top:-20px;
+}
+.forum-list .el-upload > div{
+    float:left;
+    margin:20px 10px 0 0;
+}
+.forum-list .el-dragger{
+    width:200px;
+    height:60px;    
+}
+.forum-list .pager{
+    text-align: right;
+    margin:15px 0 0 0;
+}

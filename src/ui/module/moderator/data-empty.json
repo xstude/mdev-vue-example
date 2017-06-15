@@ -1,0 +1,11 @@
+{
+    "moderatorDataList": [],
+    "provinceId": "",
+    "provinceOptions": [],
+    "cityId": "",
+    "cityOptions":[],
+    "forumInput": "",
+    "clicked": 0,
+    "curPage": 1,
+    "total": 1
+}
