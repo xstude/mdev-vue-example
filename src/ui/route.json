@@ -8,6 +8,22 @@
                 "component": "module-demo"
             },
             {
+                "path": "demo",
+                "component": "module-demo",
+                "children": [
+                    {
+                        "path": "dialog",
+                        "component": "module-dialog",
+                        "children": [
+                            {
+                                "path": "dialog-demo",
+                                "component": "module-dialog-demo"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "path": "router-link",
                 "component": "module-router-link"
             },
