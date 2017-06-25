@@ -1,0 +1,7 @@
+<div class="module-dialog">
+    <div class="shade"></div>
+    <div :class="[ 'box', { 'overflow': overflow == true } ]"
+        v-bind:style="{ 'height': bch}">
+        <router-view />
+    </div>
+</div>
